@@ -23,4 +23,4 @@ jobs:
         id: Wilco
         uses: trywilco/actions@dev
         with:
-          appEnv: "production"
+          appEnv: ${{ secrets.APP_ENV }}
