@@ -23,4 +23,6 @@ jobs:
         id: Wilco
         uses: trywilco/actions@dev
         with:
-          appEnv: "production"
+          owner: ${{ github.repository_owner }}
+          
+  
